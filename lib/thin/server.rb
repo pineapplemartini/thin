@@ -150,6 +150,7 @@ module Thin
       raise ArgumentError, 'app required' unless @app
       
       log   ">> Thin web server (v#{VERSION::STRING} codename #{VERSION::CODENAME})"
+      log   ">> Nauman haz hacked this server"
       debug ">> Debugging ON"
       trace ">> Tracing ON"
       
